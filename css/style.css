@@ -1,0 +1,10 @@
+
+.titleColor {
+    color: rgb(156, 220, 254);
+}
+
+.logoDisplay {
+    margin-left: 35px;
+    max-width: 80%;
+    max-height: 80%;
+}
