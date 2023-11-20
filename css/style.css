@@ -6,3 +6,8 @@
 .logoDisplay {
     width: 100%;
 }
+
+.miniLogoDisplay {
+    height: 36px;
+    width: 36px;
+}
