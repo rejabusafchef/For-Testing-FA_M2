@@ -1,1 +1,1 @@
-A Desktop and mobile friendly website using bootstrap components.
+A Desktop and Mobile friendly website using bootstrap components.
