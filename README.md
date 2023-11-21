@@ -1,1 +1,1 @@
-A Mobile-friendly website using HTML, CSS and Bootstrap5.
+A mobile-friendly website using HTML, CSS and Bootstrap5.
