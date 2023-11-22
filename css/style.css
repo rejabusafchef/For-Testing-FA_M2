@@ -12,10 +12,12 @@
 
 .lgLogoDisplay {
     width: 90%;
+    height: auto;
 }
 
 .smLogoDisplay {
-    width: 550%;
+    width: 55%;
+    height: auto;
 }
 
 .miniLogoDisplay {
