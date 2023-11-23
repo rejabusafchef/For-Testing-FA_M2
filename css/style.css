@@ -34,3 +34,7 @@
     margin-right: 3px;
     margin-bottom: 10px;
 }
+
+.hoverColor:hover {
+    color: rgb(156, 220, 254);
+}
