@@ -22,7 +22,8 @@
 
 .miniLogoDisplay {
     height: 36px;
-    width: 36px;
+    width: auto;
+    margin-left: 3px;
 }
 
 .readMoreButton {
