@@ -30,8 +30,8 @@
 
 .miniLogoDisplay {
     height: 36px;
-    width: auto;
-    margin-left: 3px;
+    width: 36px;
+    /* margin-left: 3px; */
 }
 
 .readMoreButton {
@@ -46,4 +46,8 @@
 
 .hoverColor:hover {
     color: rgb(156, 220, 254);
+}
+
+.navButtonSize {
+    padding: 2px;
 }
