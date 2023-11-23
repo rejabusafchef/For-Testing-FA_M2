@@ -3,11 +3,15 @@
 }
 
 .titleFontSm {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.titleFontMd {
+    font-size: 25px;
 }
 
 .titleFontLg {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .lgLogoDisplay {
