@@ -27,12 +27,17 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../images/home-logo.jpg" alt="Home Logo" class="miniLogoDisplay">
+                    <img src="../images/home-logo-mini.jpg" alt="Home Logo" class="miniLogoDisplay">
                 </a>
-                <!-- Variable font sizes for different widths of viewport (breakpoint : md) -->
-                <a class="navbar-brand titleFontSm titleColor d-md-none" href="../index.html">Top Five Frontend
+                <!-- Title font size lg for viewport width greater than lg breakpoint -->
+                <!-- Title font size md for viewport width greater than md and less than lg breakpoint -->
+                <!-- Title font size sm for viewport width greater than xsm and less than md breakpoint -->
+                <!-- Title is not displayed for viewport width less than xsm breakpoint -->
+                <a class="navbar-brand titleFontLg titleColor d-none d-lg-inline" href="../index.html">Top Five Frontend
                     Frameworks</a>
-                <a class="navbar-brand titleFontLg titleColor d-none d-md-inline" href="../index.html">Top Five Frontend
+                <a class="navbar-brand titleFontMd titleColor d-none d-md-inline d-lg-none" href="../index.html">Top Five Frontend
+                    Frameworks</a>
+                <a class="navbar-brand titleFontSm titleColor d-none d-xsm-inline d-md-none me-auto" href="../index.html">Top Five Frontend
                     Frameworks</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
