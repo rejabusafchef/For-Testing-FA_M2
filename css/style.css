@@ -2,8 +2,12 @@
     color: rgb(156, 220, 254);
 }
 
-.titleFontSm {
+.titleFontXsm {
     font-size: 12px;
+}
+
+.titleFontSm {
+    font-size: 20px;
 }
 
 .titleFontMd {
