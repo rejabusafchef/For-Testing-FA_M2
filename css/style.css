@@ -50,3 +50,9 @@
 .navButtonSize {
     padding: 2px;
 }
+
+.cardAnchorTag {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
