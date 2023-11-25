@@ -61,3 +61,7 @@
     min-height: 30px;
     min-width: 100px;
 }
+
+.cardEffect:hover {
+    color: rgba(0, 0, 0, 0.50) !important; 
+}
