@@ -22,6 +22,10 @@
         .card:hover {
             color: rgba(0, 0, 0, 0.50)
         }
+        .blankDivCards {
+            min-height: 30px;
+            min-width: 100px;
+        }
     </style>
 </head>
 
@@ -111,7 +115,9 @@
         </div>
         <hr>
         <section id="cards">
-            <div class="container-fluid mt-5 lead">
+            <!-- When navigating to #cards section, the top part of Angular Logo gets covered by navigation bar. This div avoids that issue. -->
+            <div class="blankDivCards"></div>
+            <div class="container-fluid lead">
                 <div class="row">
                     <!-- Display 1 card in 1 row for viewport width less than xsm breakpoint -->
                     <!-- Display 2 cards in 1 row for viewport width greater than xsm breakpoint and below sm breakpoint -->
