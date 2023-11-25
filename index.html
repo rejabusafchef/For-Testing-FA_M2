@@ -20,7 +20,7 @@
     <link href="css/style.css" rel="stylesheet">
     <style>
         .card:hover {
-            color: rgba(0, 0, 0, 0.60)
+            color: rgba(0, 0, 0, 0.50)
         }
     </style>
 </head>
@@ -78,12 +78,14 @@
             <div class="row">
                 <!-- Variable coloumn ratio for different widths of viewport -->
                 <div class="col-lg-3 col-md-4 col-sm-12 p-3">
-                    <!-- Logo size lg (inline element) for viewport width greater than md breakpoint -->
-                    <!-- Logo size sm (block element and center) for viewport width less than md breakpoint -->
-                    <img src="images/home-logo.jpg" class="img-fluid lgLogoDisplay d-none d-md-inline mt-4 ms-3"
-                        alt="Home Logo">
-                    <img src="images/home-logo.jpg" class="img-fluid smLogoDisplay d-block d-md-none mx-auto"
-                        alt="Home Logo">
+                    <a href="#cards">
+                        <!-- Logo size lg (inline element) for viewport width greater than md breakpoint -->
+                        <!-- Logo size sm (block element and center) for viewport width less than md breakpoint -->
+                        <img src="images/home-logo.jpg" class="img-fluid lgLogoDisplay d-none d-md-inline mt-4 ms-3"
+                            alt="Home Logo">
+                        <img src="images/home-logo.jpg" class="img-fluid smLogoDisplay d-block d-md-none mx-auto"
+                            alt="Home Logo">
+                    </a>
                 </div>
                 <!-- Variable coloumn ratio for different viewport width breakpoints -->
                 <div class="col-lg-9 col-md-8 col-sm-12 mt-4 lead">
@@ -108,95 +110,98 @@
             </div>
         </div>
         <hr>
-        <div class="container-fluid mt-5 lead">
-            <div class="row">
-                <!-- Display 1 card in 1 row for viewport width less than xsm breakpoint -->
-                <!-- Display 2 cards in 1 row for viewport width greater than xsm breakpoint and below sm breakpoint -->
-                <!-- Display 3 cards in 1 row for viewport width greater than sm breakpoint and less than lg breakpoint -->
-                <!-- Display all the cards in 1 row for viewport width greater than lg breakpoint -->
-                <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
-                    <!-- Entire card div is clickable using anchor tag -->
-                    <a href="html/angular.html" class="cardAnchorTag">
-                        <!-- Card uses the full height of the div with h-100 -->
-                        <div class="card border-0 h-100">
-                            <img src="images/angular-logo.jpg" alt="Angular Logo"
-                                class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">Angular</h5>
-                                <p class="card-text h6 fw-light my-3">The only of the many Front-end Frameworks in
-                                    2023
-                                    based on TypeScript, Angular makes its spot on this list. Angular was initially
-                                </p>
-                                <!-- readMoreButton in css makes the read more button appear at the bottom of the card div column -->
-                                <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+        <section id="cards">
+            <div class="container-fluid mt-5 lead">
+                <div class="row">
+                    <!-- Display 1 card in 1 row for viewport width less than xsm breakpoint -->
+                    <!-- Display 2 cards in 1 row for viewport width greater than xsm breakpoint and below sm breakpoint -->
+                    <!-- Display 3 cards in 1 row for viewport width greater than sm breakpoint and less than lg breakpoint -->
+                    <!-- Display all the cards in 1 row for viewport width greater than lg breakpoint -->
+                    <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
+                        <!-- Entire card div is clickable using anchor tag -->
+                        <a href="html/angular.html" class="cardAnchorTag">
+                            <!-- Card uses the full height of the div with h-100 -->
+                            <div class="card border-0 h-100">
+                                <img src="images/angular-logo.jpg" alt="Angular Logo"
+                                    class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fw-bold">Angular</h5>
+                                    <p class="card-text h6 fw-light my-3">The only of the many Front-end Frameworks in
+                                        2023
+                                        based on TypeScript, Angular makes its spot on this list. Angular was initially
+                                    </p>
+                                    <!-- readMoreButton in css makes the read more button appear at the bottom of the card div column -->
+                                    <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
-                    <a href="html/emberjs.html" class="cardAnchorTag">
-                        <div class="card border-0 h-100">
-                            <img src="images/emberjs-logo.jpg" alt="EmberJs Logo"
-                                class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">EmberJs</h5>
-                                <p class="card-text h6 fw-light my-3">With its component-based functionality and two-way
-                                    data binding, Ember resembles Angular a lot. It was developed in
-                                </p>
-                                <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
+                        <a href="html/emberjs.html" class="cardAnchorTag">
+                            <div class="card border-0 h-100">
+                                <img src="images/emberjs-logo.jpg" alt="EmberJs Logo"
+                                    class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fw-bold">EmberJs</h5>
+                                    <p class="card-text h6 fw-light my-3">With its component-based functionality and
+                                        two-way
+                                        data binding, Ember resembles Angular a lot. It was developed in
+                                    </p>
+                                    <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
-                    <a href="html/jquery.html" class="cardAnchorTag">
-                        <div class="card border-0 h-100">
-                            <img src="images/jquery-logo.jpg" alt="jQuery Logo"
-                                class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">jQuery</h5>
-                                <p class="card-text h6 fw-light my-3">Since its development in 2006, jQuery has been
-                                    around for quite some time now. Despite being an older Framework
-                                </p>
-                                <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
+                        <a href="html/jquery.html" class="cardAnchorTag">
+                            <div class="card border-0 h-100">
+                                <img src="images/jquery-logo.jpg" alt="jQuery Logo"
+                                    class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fw-bold">jQuery</h5>
+                                    <p class="card-text h6 fw-light my-3">Since its development in 2006, jQuery has been
+                                        around for quite some time now. Despite being an older Framework
+                                    </p>
+                                    <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
-                    <a href="html/react.html" class="cardAnchorTag">
-                        <div class="card border-0 h-100">
-                            <img src="images/react-logo.jpg" alt="React Logo"
-                                class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">React</h5>
-                                <p class="card-text h6 fw-light my-3">Considering how easy it is to learn and how
-                                    much
-                                    money a ReactJs Front-end developer makes, ReactJs could easily
-                                </p>
-                                <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
+                        <a href="html/react.html" class="cardAnchorTag">
+                            <div class="card border-0 h-100">
+                                <img src="images/react-logo.jpg" alt="React Logo"
+                                    class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fw-bold">React</h5>
+                                    <p class="card-text h6 fw-light my-3">Considering how easy it is to learn and how
+                                        much
+                                        money a ReactJs Front-end developer makes, ReactJs could easily
+                                    </p>
+                                    <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
-                    <a href="html/vuejs.html" class="cardAnchorTag">
-                        <div class="card border-0 h-100">
-                            <img src="images/vuejs-logo.jpg" alt="VueJs Logo"
-                                class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">VueJs</h5>
-                                <p class="card-text h6 fw-light my-3">The developers of VueJs have combined the
-                                    existing
-                                    Front-end Frameworks’ best features to deploy a simple and straightforward
-                                </p>
-                                <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-xsm-6 col-12 mx-auto my-3">
+                        <a href="html/vuejs.html" class="cardAnchorTag">
+                            <div class="card border-0 h-100">
+                                <img src="images/vuejs-logo.jpg" alt="VueJs Logo"
+                                    class="card-img-top img-fluid smLogoDisplay m-auto mt-3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fw-bold">VueJs</h5>
+                                    <p class="card-text h6 fw-light my-3">The developers of VueJs have combined the
+                                        existing
+                                        Front-end Frameworks’ best features to deploy a simple and straightforward
+                                    </p>
+                                    <div class="btn btn-dark rounded-lg readMoreButton">Read more</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <hr>
         <footer class="container-fluid">
             <p class="float-end"><a href="#" class="btn btn-dark rounded-lg">Back to top</a></p>
