@@ -56,7 +56,3 @@
     color: black;
     text-decoration: none;
 }
-
-.cardDivHover:hover {
-    color: rgb(156, 220, 254) !important;
-}
