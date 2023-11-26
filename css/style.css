@@ -99,23 +99,3 @@
 .navItemAnimation:nth-child(5) {
     animation-delay: 100ms;
 }
-
-.navItemAnimation:nth-child(6) {
-    animation-delay: 125ms;
-}
-
-.navItemAnimation:nth-child(7) {
-    animation-delay: 150ms;
-}
-
-.navItemAnimation:nth-child(8) {
-    animation-delay: 175ms;
-}
-
-.navItemAnimation:nth-child(9) {
-    animation-delay: 200ms;
-}
-
-.navItemAnimation:nth-child(10) {
-    animation-delay: 225ms;
-}
