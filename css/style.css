@@ -4,18 +4,22 @@
 
 .titleFontXsm {
     font-size: 16px;
+    margin-right: 20px;
 }
 
 .titleFontSm {
     font-size: 20px;
+    margin-right: 20px;
 }
 
 .titleFontMd {
     font-size: 25px;
+    margin-right: 20px;
 }
 
 .titleFontLg {
     font-size: 30px;
+    margin-right: 20px;
 }
 
 .lgLogoDisplay {
@@ -44,7 +48,7 @@
 }
 
 .hoverColor:hover {
-    color: rgb(156, 220, 254);
+    color: rgb(255,255,255,0.5);
 }
 
 .navButtonSize {
@@ -56,6 +60,16 @@
     color: black;
     text-decoration: none;
 }
+
+.collapse > ul > li > a > div.active > p {
+    color: rgb(255,255,255,0.5);
+}
+
+.navAnchorTag {
+    color: white;
+    text-decoration: none;
+}
+
 
 .blankDivForNavbar {
     min-height: 30px;
@@ -69,11 +83,11 @@
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        transform: translateY(0px);
+        transform: translateY(-7px);
     }
     100% {
         opacity: 1;
-        transform: translateY(7px);
+        transform: translateY(0px);
     }
 }
 
