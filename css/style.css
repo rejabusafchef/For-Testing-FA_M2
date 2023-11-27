@@ -83,21 +83,21 @@
 }
 
 .navItemAnimation li:nth-child(1) {
-    animation-delay: 150ms;
+    animation-delay: 100ms;
 }
 
 .navItemAnimation li:nth-child(2) {
-    animation-delay: 175ms;
+    animation-delay: 125ms;
 }
 
 .navItemAnimation li:nth-child(3) {
-    animation-delay: 200ms;
+    animation-delay: 150ms;
 }
 
 .navItemAnimation li:nth-child(4) {
-    animation-delay: 225ms;
+    animation-delay: 175ms;
 }
 
 .navItemAnimation li:nth-child(5) {
-    animation-delay: 250ms;
+    animation-delay: 200ms;
 }
