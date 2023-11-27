@@ -73,7 +73,7 @@
     }
     100% {
         opacity: 1;
-        transform: translateY(5px);
+        transform: translateY(7px);
     }
 }
 
