@@ -83,8 +83,8 @@
     }
 }
 
-/* The following animation is only activated in dropdown mode (less than 768px breakpoint) 
-as per the above specified media queries */
+/* The following animation is only activated in dropdown mode
+ (less than 768px, md breakpoint) using the above media query */
 
 @keyframes fadeIn {
     0% {
