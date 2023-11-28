@@ -38,21 +38,20 @@
     height: auto;
 }
 
-/* Following 2 media queries are used to set the navbar logo margin, to center the logo horizontally */
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
     .miniLogoDisplay {
         margin-left: 4px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .miniLogoDisplay {
-        margin-left: 3px;
+        margin-left: 2px;
     }
 }
 
 .endMargin {
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .readMoreButton {
