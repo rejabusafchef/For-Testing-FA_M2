@@ -48,59 +48,43 @@
     .miniLogoDisplay {
         margin-left: 2px;
     }
+
+    .topMargin {
+        margin-top: 5px;
+    }
+
+    .bottomMargin {
+        margin-bottom: 3px;
+    }
+
+    .navItemAnimation li {
+        animation: fadeIn 600ms ease-in-out forwards;
+        opacity: 0;
+    }
+
+    .navItemAnimation li:nth-child(1) {
+        animation-delay: 50ms;
+    }
+
+    .navItemAnimation li:nth-child(2) {
+        animation-delay: 80ms;
+    }
+
+    .navItemAnimation li:nth-child(3) {
+        animation-delay: 110ms;
+    }
+
+    .navItemAnimation li:nth-child(4) {
+        animation-delay: 140ms;
+    }
+
+    .navItemAnimation li:nth-child(5) {
+        animation-delay: 170ms;
+    }
 }
 
-.endMargin {
-    margin-bottom: 3px;
-}
-
-.readMoreButton {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-bottom: 10px;
-}
-
-.hoverColor:hover {
-    color: rgb(255,255,255,0.5);
-}
-
-.navBarProps {
-    padding-left: 11px;
-    padding-bottom: 1px;
-}
-
-.navButtonSize {
-    padding: 2px;
-}
-
-.cardAnchorTag {
-    text-align: center;
-    color: black;
-    text-decoration: none;
-}
-
-.collapse > ul > li > a > div.active > p {
-    color: rgb(255,255,255,0.5);
-}
-
-.navAnchorTag {
-    color: white;
-    text-decoration: none;
-}
-
-
-.blankDivForNavbar {
-    min-height: 30px;
-    min-width: 100px;
-}
-
-.cardEffect:hover {
-    color: rgba(0, 0, 0, 0.50); 
-}
+/* The following animation is only activated in dropdown mode (less than 768px breakpoint) 
+as per the above specified media queries */
 
 @keyframes fadeIn {
     0% {
@@ -108,7 +92,7 @@
         transform: translateY(-15px);
     }
 
-    25% { 
+    25% {
         opacity: 0;
     }
 
@@ -116,11 +100,6 @@
         opacity: 1;
         transform: translateY(0px);
     }
-}
-
-.navItemAnimation li {
-    animation: fadeIn 600ms ease-in-out forwards;
-    opacity: 0;
 }
 
 .navItemAnimation li:nth-child(1) {
@@ -141,4 +120,52 @@
 
 .navItemAnimation li:nth-child(5) {
     animation-delay: 170ms;
+}
+
+.readMoreButton {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.hoverColor:hover {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.navBarProps {
+    padding-left: 11px;
+    padding-bottom: 1px;
+}
+
+.navButtonSize {
+    padding: 2px;
+}
+
+.cardAnchorTag {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.collapse>ul>li>a>div.active>p {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.navAnchorTag {
+    color: white;
+    text-decoration: none;
+}
+
+
+.blankDivForNavbar {
+    min-height: 30px;
+    min-width: 100px;
+}
+
+.cardEffect:hover {
+    color: rgba(0, 0, 0, 0.50);
 }
