@@ -142,7 +142,8 @@
 }
 
 .navButtonSize {
-    padding: 2px;
+    padding: 3px;
+    margin-left: 1px;
 }
 
 .cardAnchorTag {
