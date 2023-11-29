@@ -151,15 +151,16 @@
     text-decoration: none;
 }
 
-.collapse>ul>li>a>div.active>p {
-    color: rgb(255, 255, 255, 0.5);
-}
-
+/* Change color of nav-item(s) to white and remove the underline styled by anchor tag */
 .navAnchorTag {
     color: white;
     text-decoration: none;
 }
 
+/* Change color of active nav-item to greyish */
+.collapse>ul>li>a>div.active>p {
+    color: rgb(255, 255, 255, 0.5);
+}
 
 .blankDivForNavbar {
     min-height: 30px;
