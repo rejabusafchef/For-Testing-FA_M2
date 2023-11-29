@@ -34,7 +34,8 @@
 
 .miniLogoDisplay {
     margin-left: 7px;
-    width: 36px;
+    min-width: 36px;
+    max-width: 36px;
     height: auto;
 }
 
